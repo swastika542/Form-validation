@@ -1,0 +1,106 @@
+
+body {
+    background-color: black; 
+    color: #3c873a;
+    font-family:  'Georgia', 'Times New Roman', 'Times';
+    margin: 0;
+    padding: 0;
+  }
+  
+  .form-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(85, 4, 97);
+  }
+  
+  .form-container {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    background-color: white;
+    color: #3c873a;
+  }
+  
+  .form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: black;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .form-group input,
+  .form-group select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #000;
+    color: white;
+  }
+  
+  .form-group span {
+    color: red;
+    font-size: 0.875em;
+  }
+  
+  .password-toggle {
+    margin-top: 5px;
+    background-color: transparent;
+    border: none;
+    color: #3c873a;
+    cursor: pointer;
+    font-size: 0.875em;
+  }
+  
+  .phone-group {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .phone-group select {
+    flex: 0 0 30%;
+  }
+  
+  .phone-group input {
+    flex: 1;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button[type="submit"]:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
